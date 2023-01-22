@@ -11,7 +11,6 @@ model.start_training(iteration=2000, learning_rate=0.05)
 model.show_training_results()
 preds = model.predict(X_test)
 
-
 # MULTIPLE NEURONS ON MULTIPLE LAYERS
 
 X_train, y_train = Datasets.get_random_circles_set(n_samples=500)
